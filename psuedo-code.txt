@@ -1,0 +1,65 @@
+
+
+	
+	In the initial phase, I define the `BankAccount` class with properties like `initialInvestment`, `monthlyDeposit`, `annualInterest`, and `years`. Arrays store yearly growth data as `growthWithoutDeposits` and `growthWithDeposits`, each holding objects for year, balance, and interest. Next, I set up the financial state using user-provided values. Then, I calculate growth using the `calculateGrowth` method, handling scenarios with and without monthly deposits through a boolean parameter. Finally, I display a summary of the investment's yearly growth using the `showSummary` method, making it user-friendly with clear naming:
+
+DEFINE BankAccount Class
+Properties for investment details (initialInvestment, monthlyDeposit, annualInterest, years).
+Arrays for storing yearly growth data (growthWithoutDeposits, growthWithDeposits), each holding objects to track year, balance, and interest.
+
+
+INITALIZE
+Use user-provided values to set up the account's financial state.
+
+
+GROWTH CALCULATION
+calculateGrowth(includeDeposits): A single method to handle both scenarios (with and without monthly deposits) for simplicity and to avoid code duplication. The boolean parameter includeDeposits toggles the inclusion of monthly deposits in the calculation.
+
+
+DISPLAY SUMMARY
+showSummary(): Consolidates display logic, mimicking a console output for user-friendly display of the investment's yearly growth, leveraging descriptive naming for ease of understanding.
+
+
+
+			In the second phase, I draft the code for the BankAccount class, which serves as the core structure for managing investment details. This includes initializing the class with essential parameters such as initial investment, monthly deposit, annual interest rate, and investment duration. Additionally, I define methods to calculate growth both with and without monthly deposits and a method to display a summary of investment growth. Finally, I incorporate error handling around user inputs to ensure smooth execution:
+
+Define Class BankAccount
+    Initialize Class with initialInvestment, monthlyDeposit, annualInterestRate, investmentDuration
+
+    Define Method calculateGrowthWithoutMonthlyDeposits
+        Calculate yearly growth without considering monthly deposits
+        Store each year's end balance and interest earned in growthWithoutDeposits
+
+    Define Method calculateGrowthWithMonthlyDeposits
+        Calculate yearly growth including monthly deposits
+        Store each year's end balance and interest earned in growthWithDeposits
+
+    Define Method displayInvestmentSummary
+        Display summary of investment growth for both with and without monthly deposits
+
+    Define Helper Method calculateMonthlyInterest
+        Calculate interest for a given amount with optional monthly deposits
+
+End Class
+
+Start Main Program
+    Prompt user for Initial Investment Amount
+    Prompt user for Monthly Deposit Amount
+    Prompt user for Annual Interest Rate
+    Prompt user for Number of Years
+
+	Create instance of BankAccount with provided inputs using modern memory management
+
+	Implement error handling around user inputs
+
+	Calculate growth without monthly deposits
+    Calculate growth with monthly deposits
+
+    Display investment summary showing the growth over the years
+
+End Main Program
+
+	
+	Through these drafts, I establish the foundational structure of the BankAccount class and its associated methods, paving the way for the implementation of the investment management system. Despite the need for separate versions to accommodate my coding process, this phase sets a clear roadmap for the subsequent development stages, balancing simplicity with functionality.
+
+ 

@@ -26,7 +26,7 @@ Suggestions and contributions are welcome. Please feel free to fork, enhance, an
 
 **********************************************************************************************************************************************
 
-Investment Calculator Reflection
+Investment Calculator Reflection:
 In developing the Investment Calculator, I crafted a tool to help users project the growth of their investments over time. The project not only tested my logical thinking in translating financial formulas into code but also challenged my burgeoning C++ skills, particularly in managing multiple files and grappling with the intricacies of syntax.
 
 Throughout this process, I've learned the value of clear, maintainable code. The journey has highlighted areas for growth, like deepening my understanding of C++ and refining my approach to project structure. The obstacles I faced, notably in syntax familiarity and efficient compilation, were significant yet surmountable with persistent effort and the judicious use of online resources.
